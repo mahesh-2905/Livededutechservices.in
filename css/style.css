@@ -4,6 +4,31 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ #about-section{
+  position: relative;
+  height: 450px;
+  top: 150px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+  @media (max-width: 992px) {
+    #about-section{
+      top: 0;
+      margin-left: 15px;
+      margin-bottom: 50px;
+  } }
+      @media (max-width: 700px) {
+        #about-section{
+          margin-left: 15px;
+          margin-bottom: 50px;
+          height: 700px;
+        } }
+
+ .heading-1{
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffbd39;
+ }
  .black-card{
   border-radius: 5px;
   align-items: center;
